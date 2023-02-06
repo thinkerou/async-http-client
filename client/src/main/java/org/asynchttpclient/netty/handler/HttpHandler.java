@@ -20,7 +20,7 @@ import io.netty5.channel.Channel;
 import io.netty5.channel.ChannelHandler.Sharable;
 import io.netty5.handler.codec.DecoderResultProvider;
 import io.netty5.handler.codec.http.HttpContent;
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import io.netty5.handler.codec.http.HttpRequest;
 import io.netty5.handler.codec.http.HttpResponse;
 import io.netty5.handler.codec.http.LastHttpContent;

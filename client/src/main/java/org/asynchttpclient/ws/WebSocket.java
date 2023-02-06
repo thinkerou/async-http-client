@@ -16,7 +16,7 @@
 package org.asynchttpclient.ws;
 
 import io.netty5.buffer.ByteBuf;
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import io.netty5.util.concurrent.Future;
 
 import java.net.SocketAddress;

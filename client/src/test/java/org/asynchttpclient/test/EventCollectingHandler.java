@@ -16,7 +16,7 @@
 package org.asynchttpclient.test;
 
 import io.netty5.channel.Channel;
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import org.asynchttpclient.AsyncCompletionHandlerBase;
 import org.asynchttpclient.HttpResponseStatus;
 import org.asynchttpclient.Response;

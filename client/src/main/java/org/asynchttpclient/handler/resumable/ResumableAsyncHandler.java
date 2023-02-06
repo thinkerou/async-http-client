@@ -12,7 +12,7 @@
  */
 package org.asynchttpclient.handler.resumable;
 
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.HttpResponseBodyPart;
 import org.asynchttpclient.HttpResponseStatus;
@@ -166,9 +166,9 @@ public class ResumableAsyncHandler implements AsyncHandler<Response> {
     @Override
     public State onHeadersReceived(HttpHeaders headers) throws Exception {
         responseBuilder.accumulate(headers);
-        String contentLengthHeader = headers.get(CONTENT_LENGTH);
+        CharSequence contentLengthHeader = headers.get(CONTENT_LENGTH);
         if (contentLengthHeader != null) {
-            if (Long.parseLong(contentLengthHeader) == -1L) {
+            if (Long.parseLong(contentLengthHeader.toString()) == -1L) {
                 return AsyncHandler.State.ABORT;
             }
         }

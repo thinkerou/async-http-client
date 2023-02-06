@@ -14,7 +14,7 @@ package org.asynchttpclient.netty;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
 import io.netty5.handler.codec.http.DefaultHttpHeaders;
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import io.netty5.handler.codec.http.cookie.Cookie;
 
 import java.text.SimpleDateFormat;

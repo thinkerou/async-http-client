@@ -18,7 +18,7 @@ package org.asynchttpclient.netty.ws;
 import io.netty5.buffer.ByteBuf;
 import io.netty5.buffer.ByteBufUtil;
 import io.netty5.channel.Channel;
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import io.netty5.handler.codec.http.websocketx.BinaryWebSocketFrame;
 import io.netty5.handler.codec.http.websocketx.CloseWebSocketFrame;
 import io.netty5.handler.codec.http.websocketx.ContinuationWebSocketFrame;

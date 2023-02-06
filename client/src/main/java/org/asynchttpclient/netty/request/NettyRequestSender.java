@@ -22,7 +22,7 @@ import io.netty5.channel.ChannelProgressivePromise;
 import io.netty5.channel.ChannelPromise;
 import io.netty5.handler.codec.http.DefaultHttpHeaders;
 import io.netty5.handler.codec.http.HttpHeaderValues;
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import io.netty5.handler.codec.http.HttpMethod;
 import io.netty5.handler.codec.http.HttpRequest;
 import io.netty5.util.Timer;

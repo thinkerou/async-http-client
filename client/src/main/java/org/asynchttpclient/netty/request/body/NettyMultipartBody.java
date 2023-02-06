@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.netty.request.body;
 
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import org.asynchttpclient.AsyncHttpClientConfig;
 import org.asynchttpclient.request.body.multipart.MultipartBody;
 import org.asynchttpclient.request.body.multipart.Part;

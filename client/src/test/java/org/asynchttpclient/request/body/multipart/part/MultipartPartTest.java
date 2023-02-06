@@ -19,7 +19,7 @@ import io.github.artsok.RepeatedIfExceptionsTest;
 import io.netty5.buffer.ByteBuf;
 import io.netty5.buffer.ByteBufAllocator;
 import io.netty5.handler.codec.http.DefaultHttpHeaders;
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import org.apache.commons.io.FileUtils;
 import org.asynchttpclient.request.body.multipart.FileLikePart;
 import org.asynchttpclient.request.body.multipart.MultipartBody;

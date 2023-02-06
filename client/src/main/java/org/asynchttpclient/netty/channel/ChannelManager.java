@@ -44,7 +44,7 @@ import io.netty5.handler.proxy.Socks4ProxyHandler;
 import io.netty5.handler.proxy.Socks5ProxyHandler;
 import io.netty5.handler.ssl.SslHandler;
 import io.netty5.handler.stream.ChunkedWriteHandler;
-import io.netty5.incubator.channel.uring.IOUringEventLoopGroup;
+import io.netty.incubator.channel.uring.IOUringEventLoopGroup;
 import io.netty5.resolver.NameResolver;
 import io.netty5.util.Timer;
 import io.netty5.util.concurrent.DefaultThreadFactory;

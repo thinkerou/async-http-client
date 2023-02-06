@@ -17,7 +17,7 @@ package org.asynchttpclient.proxy;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
 import io.netty5.handler.codec.http.DefaultHttpHeaders;
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

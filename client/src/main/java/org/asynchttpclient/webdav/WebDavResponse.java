@@ -12,7 +12,7 @@
  */
 package org.asynchttpclient.webdav;
 
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import io.netty5.handler.codec.http.cookie.Cookie;
 import org.asynchttpclient.Response;
 import org.asynchttpclient.uri.Uri;

@@ -14,7 +14,7 @@ package org.asynchttpclient.handler.resumable;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
 import io.netty5.handler.codec.http.DefaultHttpHeaders;
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.AsyncHandler.State;
 import org.asynchttpclient.HttpResponseBodyPart;

@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.test;
 
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import jakarta.servlet.http.HttpServletResponse;
 import org.apache.commons.io.FileUtils;
 import org.asynchttpclient.AsyncCompletionHandler;

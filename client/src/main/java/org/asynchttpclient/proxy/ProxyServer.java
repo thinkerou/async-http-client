@@ -16,7 +16,7 @@
  */
 package org.asynchttpclient.proxy;
 
-import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.headers.HttpHeaders;
 import org.asynchttpclient.Realm;
 import org.asynchttpclient.Request;
 
