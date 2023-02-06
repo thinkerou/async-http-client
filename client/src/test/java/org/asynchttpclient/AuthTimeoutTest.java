@@ -30,7 +30,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
 import static org.asynchttpclient.Dsl.asyncHttpClient;
 import static org.asynchttpclient.Dsl.basicAuthRealm;
 import static org.asynchttpclient.Dsl.config;

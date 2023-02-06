@@ -12,7 +12,7 @@
  */
 package org.asynchttpclient.handler;
 
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
 
 /**
  * A simple interface an application can implements in order to received byte transfer information.

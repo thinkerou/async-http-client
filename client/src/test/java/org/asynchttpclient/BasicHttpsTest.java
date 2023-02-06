@@ -31,7 +31,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.asynchttpclient.Dsl.config;
 import static org.asynchttpclient.test.TestUtils.LARGE_IMAGE_FILE;

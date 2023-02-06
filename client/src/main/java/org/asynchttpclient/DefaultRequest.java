@@ -15,9 +15,9 @@
  */
 package org.asynchttpclient;
 
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.cookie.Cookie;
-import io.netty.resolver.NameResolver;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.cookie.Cookie;
+import io.netty5.resolver.NameResolver;
 import org.asynchttpclient.channel.ChannelPoolPartitioning;
 import org.asynchttpclient.proxy.ProxyServer;
 import org.asynchttpclient.request.body.generator.BodyGenerator;

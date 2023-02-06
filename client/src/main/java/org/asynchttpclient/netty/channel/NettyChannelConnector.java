@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.netty.channel;
 
-import io.netty.bootstrap.Bootstrap;
-import io.netty.channel.Channel;
+import io.netty5.bootstrap.Bootstrap;
+import io.netty5.channel.Channel;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.AsyncHttpClientState;
 import org.asynchttpclient.netty.SimpleChannelFutureListener;

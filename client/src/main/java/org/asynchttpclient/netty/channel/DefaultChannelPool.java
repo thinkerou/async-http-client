@@ -15,12 +15,12 @@
  */
 package org.asynchttpclient.netty.channel;
 
-import io.netty.channel.Channel;
-import io.netty.util.Attribute;
-import io.netty.util.AttributeKey;
-import io.netty.util.Timeout;
-import io.netty.util.Timer;
-import io.netty.util.TimerTask;
+import io.netty5.channel.Channel;
+import io.netty5.util.Attribute;
+import io.netty5.util.AttributeKey;
+import io.netty5.util.Timeout;
+import io.netty5.util.Timer;
+import io.netty5.util.TimerTask;
 import org.asynchttpclient.AsyncHttpClientConfig;
 import org.asynchttpclient.channel.ChannelPool;
 import org.slf4j.Logger;

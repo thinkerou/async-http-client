@@ -15,12 +15,12 @@
  */
 package org.asynchttpclient;
 
-import io.netty.buffer.ByteBufAllocator;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelOption;
-import io.netty.channel.EventLoopGroup;
-import io.netty.handler.ssl.SslContext;
-import io.netty.util.Timer;
+import io.netty5.buffer.ByteBufAllocator;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelOption;
+import io.netty5.channel.EventLoopGroup;
+import io.netty5.handler.ssl.SslContext;
+import io.netty5.util.Timer;
 import org.asynchttpclient.channel.ChannelPool;
 import org.asynchttpclient.channel.DefaultKeepAliveStrategy;
 import org.asynchttpclient.channel.KeepAliveStrategy;

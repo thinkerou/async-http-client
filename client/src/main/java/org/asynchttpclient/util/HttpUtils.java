@@ -12,8 +12,8 @@
  */
 package org.asynchttpclient.util;
 
-import io.netty.handler.codec.http.HttpHeaderValues;
-import io.netty.util.AsciiString;
+import io.netty5.handler.codec.http.HttpHeaderValues;
+import io.netty5.util.AsciiString;
 import org.asynchttpclient.AsyncHttpClient;
 import org.asynchttpclient.AsyncHttpClientConfig;
 import org.asynchttpclient.Param;

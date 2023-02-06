@@ -46,7 +46,7 @@ public final class StackTraceInspector {
 
     public static boolean recoverOnNettyDisconnectException(Throwable t) {
         return t instanceof ClosedChannelException
-                || exceptionInMethod(t, "io.netty.handler.ssl.SslHandler", "disconnect")
+                || exceptionInMethod(t, "io.netty5.handler.ssl.SslHandler", "disconnect")
                 || t.getCause() != null && recoverOnConnectCloseException(t.getCause());
     }
 

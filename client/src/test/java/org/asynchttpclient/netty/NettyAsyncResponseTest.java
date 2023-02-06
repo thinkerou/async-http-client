@@ -13,9 +13,9 @@
 package org.asynchttpclient.netty;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.DefaultHttpHeaders;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.cookie.Cookie;
+import io.netty5.handler.codec.http.DefaultHttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.cookie.Cookie;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.SET_COOKIE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.SET_COOKIE;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

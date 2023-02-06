@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.cookie;
 
-import io.netty.util.Timeout;
-import io.netty.util.TimerTask;
+import io.netty5.util.Timeout;
+import io.netty5.util.TimerTask;
 import org.asynchttpclient.AsyncHttpClientConfig;
 
 import java.util.concurrent.TimeUnit;

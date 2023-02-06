@@ -15,10 +15,10 @@
  */
 package org.asynchttpclient.netty;
 
-import io.netty.handler.codec.http.EmptyHttpHeaders;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.cookie.ClientCookieDecoder;
-import io.netty.handler.codec.http.cookie.Cookie;
+import io.netty5.handler.codec.http.EmptyHttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.cookie.ClientCookieDecoder;
+import io.netty5.handler.codec.http.cookie.Cookie;
 import org.asynchttpclient.HttpResponseBodyPart;
 import org.asynchttpclient.HttpResponseStatus;
 import org.asynchttpclient.Response;
@@ -34,9 +34,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
-import static io.netty.handler.codec.http.HttpHeaderNames.SET_COOKIE;
-import static io.netty.handler.codec.http.HttpHeaderNames.SET_COOKIE2;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.SET_COOKIE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.SET_COOKIE2;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.asynchttpclient.util.HttpUtils.extractContentTypeCharsetAttribute;
 import static org.asynchttpclient.util.MiscUtils.isNonEmpty;

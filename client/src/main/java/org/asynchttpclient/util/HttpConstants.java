@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.util;
 
-import io.netty.handler.codec.http.HttpMethod;
-import io.netty.handler.codec.http.HttpResponseStatus;
+import io.netty5.handler.codec.http.HttpMethod;
+import io.netty5.handler.codec.http.HttpResponseStatus;
 
 public final class HttpConstants {
 

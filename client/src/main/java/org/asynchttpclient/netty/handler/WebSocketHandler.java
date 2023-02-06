@@ -15,14 +15,14 @@
  */
 package org.asynchttpclient.netty.handler;
 
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelHandler.Sharable;
-import io.netty.handler.codec.http.HttpHeaderValues;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.HttpRequest;
-import io.netty.handler.codec.http.HttpResponse;
-import io.netty.handler.codec.http.LastHttpContent;
-import io.netty.handler.codec.http.websocketx.WebSocketFrame;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelHandler.Sharable;
+import io.netty5.handler.codec.http.HttpHeaderValues;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpRequest;
+import io.netty5.handler.codec.http.HttpResponse;
+import io.netty5.handler.codec.http.LastHttpContent;
+import io.netty5.handler.codec.http.websocketx.WebSocketFrame;
 import org.asynchttpclient.AsyncHandler.State;
 import org.asynchttpclient.AsyncHttpClientConfig;
 import org.asynchttpclient.HttpResponseStatus;
@@ -36,11 +36,11 @@ import org.asynchttpclient.ws.WebSocketUpgradeHandler;
 
 import java.io.IOException;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONNECTION;
-import static io.netty.handler.codec.http.HttpHeaderNames.SEC_WEBSOCKET_ACCEPT;
-import static io.netty.handler.codec.http.HttpHeaderNames.SEC_WEBSOCKET_KEY;
-import static io.netty.handler.codec.http.HttpHeaderNames.UPGRADE;
-import static io.netty.handler.codec.http.HttpResponseStatus.SWITCHING_PROTOCOLS;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONNECTION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.SEC_WEBSOCKET_ACCEPT;
+import static io.netty5.handler.codec.http.HttpHeaderNames.SEC_WEBSOCKET_KEY;
+import static io.netty5.handler.codec.http.HttpHeaderNames.UPGRADE;
+import static io.netty5.handler.codec.http.HttpResponseStatus.SWITCHING_PROTOCOLS;
 import static org.asynchttpclient.ws.WebSocketUtils.getAcceptKey;
 
 @Sharable

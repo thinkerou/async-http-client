@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.netty.request.body;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.channel.Channel;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.channel.Channel;
 import org.asynchttpclient.netty.NettyResponseFuture;
 
 public abstract class NettyDirectBody implements NettyBody {

@@ -15,13 +15,13 @@
  */
 package org.asynchttpclient.netty.ssl;
 
-import io.netty.buffer.ByteBufAllocator;
-import io.netty.handler.ssl.IdentityCipherSuiteFilter;
-import io.netty.handler.ssl.SslContext;
-import io.netty.handler.ssl.SslContextBuilder;
-import io.netty.handler.ssl.SslProvider;
-import io.netty.handler.ssl.util.InsecureTrustManagerFactory;
-import io.netty.util.ReferenceCountUtil;
+import io.netty5.buffer.ByteBufAllocator;
+import io.netty5.handler.ssl.IdentityCipherSuiteFilter;
+import io.netty5.handler.ssl.SslContext;
+import io.netty5.handler.ssl.SslContextBuilder;
+import io.netty5.handler.ssl.SslProvider;
+import io.netty5.handler.ssl.util.InsecureTrustManagerFactory;
+import io.netty5.util.ReferenceCountUtil;
 import org.asynchttpclient.AsyncHttpClientConfig;
 
 import javax.net.ssl.SSLEngine;

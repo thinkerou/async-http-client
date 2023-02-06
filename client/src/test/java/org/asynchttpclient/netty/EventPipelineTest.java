@@ -13,10 +13,10 @@
 package org.asynchttpclient.netty;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.handler.codec.http.HttpMessage;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelHandlerContext;
+import io.netty5.channel.ChannelInboundHandlerAdapter;
+import io.netty5.handler.codec.http.HttpMessage;
 import org.asynchttpclient.AbstractBasicTest;
 import org.asynchttpclient.AsyncHttpClient;
 import org.asynchttpclient.Response;

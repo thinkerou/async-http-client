@@ -33,7 +33,7 @@ import java.util.Enumeration;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.LOCATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.LOCATION;
 import static org.asynchttpclient.test.TestUtils.TEXT_HTML_CONTENT_TYPE_WITH_ISO_8859_1_CHARSET;
 import static org.asynchttpclient.test.TestUtils.TEXT_HTML_CONTENT_TYPE_WITH_UTF_8_CHARSET;
 import static org.asynchttpclient.test.TestUtils.addHttpConnector;

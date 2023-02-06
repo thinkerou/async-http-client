@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.ws;
 
-import io.netty.util.internal.ThreadLocalRandom;
+import io.netty5.util.internal.ThreadLocalRandom;
 
 import java.util.Base64;
 

@@ -16,11 +16,11 @@
 package org.asynchttpclient;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.DefaultHttpHeaders;
-import io.netty.handler.codec.http.HttpHeaderValues;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.cookie.Cookie;
-import io.netty.handler.codec.http.cookie.DefaultCookie;
+import io.netty5.handler.codec.http.DefaultHttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaderValues;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.cookie.Cookie;
+import io.netty5.handler.codec.http.cookie.DefaultCookie;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -57,10 +57,10 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
-import static io.netty.handler.codec.http.HttpHeaderNames.HOST;
-import static io.netty.handler.codec.http.HttpHeaderNames.TRANSFER_ENCODING;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.HOST;
+import static io.netty5.handler.codec.http.HttpHeaderNames.TRANSFER_ENCODING;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.asynchttpclient.Dsl.config;

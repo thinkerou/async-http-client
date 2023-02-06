@@ -16,7 +16,7 @@
  */
 package org.asynchttpclient;
 
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
 import org.asynchttpclient.handler.ProgressAsyncHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

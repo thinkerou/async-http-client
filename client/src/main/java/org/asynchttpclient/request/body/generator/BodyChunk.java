@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.request.body.generator;
 
-import io.netty.buffer.ByteBuf;
+import io.netty5.buffer.ByteBuf;
 
 public final class BodyChunk {
     public final boolean last;

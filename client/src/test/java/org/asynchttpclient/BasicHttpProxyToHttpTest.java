@@ -34,8 +34,8 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.util.concurrent.Future;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.PROXY_AUTHENTICATE;
-import static io.netty.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.PROXY_AUTHENTICATE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
 import static org.asynchttpclient.Dsl.asyncHttpClient;
 import static org.asynchttpclient.Dsl.get;
 import static org.asynchttpclient.Dsl.proxyServer;

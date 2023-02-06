@@ -15,20 +15,20 @@
  */
 package org.asynchttpclient.netty.request;
 
-import io.netty.bootstrap.Bootstrap;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelProgressivePromise;
-import io.netty.channel.ChannelPromise;
-import io.netty.handler.codec.http.DefaultHttpHeaders;
-import io.netty.handler.codec.http.HttpHeaderValues;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.HttpMethod;
-import io.netty.handler.codec.http.HttpRequest;
-import io.netty.util.Timer;
-import io.netty.util.concurrent.Future;
-import io.netty.util.concurrent.ImmediateEventExecutor;
-import io.netty.util.concurrent.Promise;
+import io.netty5.bootstrap.Bootstrap;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelFuture;
+import io.netty5.channel.ChannelProgressivePromise;
+import io.netty5.channel.ChannelPromise;
+import io.netty5.handler.codec.http.DefaultHttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaderValues;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpMethod;
+import io.netty5.handler.codec.http.HttpRequest;
+import io.netty5.util.Timer;
+import io.netty5.util.concurrent.Future;
+import io.netty5.util.concurrent.ImmediateEventExecutor;
+import io.netty5.util.concurrent.Promise;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.AsyncHttpClientConfig;
 import org.asynchttpclient.AsyncHttpClientState;
@@ -65,7 +65,7 @@ import java.net.InetSocketAddress;
 import java.net.SocketAddress;
 import java.util.List;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.EXPECT;
+import static io.netty5.handler.codec.http.HttpHeaderNames.EXPECT;
 import static java.util.Collections.singletonList;
 import static org.asynchttpclient.util.Assertions.assertNotNull;
 import static org.asynchttpclient.util.AuthenticatorUtils.perConnectionAuthorizationHeader;

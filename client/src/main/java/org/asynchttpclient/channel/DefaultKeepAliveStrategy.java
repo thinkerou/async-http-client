@@ -15,14 +15,14 @@
  */
 package org.asynchttpclient.channel;
 
-import io.netty.handler.codec.http.HttpRequest;
-import io.netty.handler.codec.http.HttpResponse;
-import io.netty.handler.codec.http.HttpUtil;
+import io.netty5.handler.codec.http.HttpRequest;
+import io.netty5.handler.codec.http.HttpResponse;
+import io.netty5.handler.codec.http.HttpUtil;
 import org.asynchttpclient.Request;
 
 import java.net.InetSocketAddress;
 
-import static io.netty.handler.codec.http.HttpHeaderValues.CLOSE;
+import static io.netty5.handler.codec.http.HttpHeaderValues.CLOSE;
 
 /**
  * Connection strategy implementing standard HTTP 1.0/1.1 behavior.

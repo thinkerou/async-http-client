@@ -13,8 +13,8 @@
 package org.asynchttpclient.handler.resumable;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.DefaultHttpHeaders;
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.DefaultHttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.AsyncHandler.State;
 import org.asynchttpclient.HttpResponseBodyPart;
@@ -26,8 +26,8 @@ import org.asynchttpclient.uri.Uri;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
-import static io.netty.handler.codec.http.HttpHeaderNames.RANGE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
+import static io.netty5.handler.codec.http.HttpHeaderNames.RANGE;
 import static org.asynchttpclient.Dsl.get;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;

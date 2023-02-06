@@ -15,12 +15,12 @@
  */
 package org.asynchttpclient;
 
-import io.netty.handler.codec.http.DefaultHttpHeaders;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.cookie.Cookie;
-import io.netty.resolver.DefaultNameResolver;
-import io.netty.resolver.NameResolver;
-import io.netty.util.concurrent.ImmediateEventExecutor;
+import io.netty5.handler.codec.http.DefaultHttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.cookie.Cookie;
+import io.netty5.resolver.DefaultNameResolver;
+import io.netty5.resolver.NameResolver;
+import io.netty5.util.concurrent.ImmediateEventExecutor;
 import org.asynchttpclient.channel.ChannelPoolPartitioning;
 import org.asynchttpclient.proxy.ProxyServer;
 import org.asynchttpclient.request.body.generator.BodyGenerator;
@@ -41,7 +41,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.asynchttpclient.util.HttpUtils.extractContentTypeCharsetAttribute;
 import static org.asynchttpclient.util.MiscUtils.isNonEmpty;

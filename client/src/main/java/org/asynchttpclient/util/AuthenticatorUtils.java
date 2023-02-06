@@ -24,7 +24,7 @@ import java.nio.charset.Charset;
 import java.util.Base64;
 import java.util.List;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
 import static java.nio.charset.StandardCharsets.ISO_8859_1;
 import static org.asynchttpclient.Dsl.realm;
 import static org.asynchttpclient.util.MiscUtils.isNonEmpty;

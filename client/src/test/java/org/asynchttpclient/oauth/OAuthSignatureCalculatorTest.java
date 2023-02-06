@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.AUTHORIZATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.AUTHORIZATION;
 import static org.asynchttpclient.Dsl.get;
 import static org.asynchttpclient.Dsl.post;
 import static org.junit.jupiter.api.Assertions.assertEquals;

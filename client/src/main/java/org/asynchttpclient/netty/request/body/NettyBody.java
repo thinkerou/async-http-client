@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.netty.request.body;
 
-import io.netty.channel.Channel;
+import io.netty5.channel.Channel;
 import org.asynchttpclient.netty.NettyResponseFuture;
 
 import java.io.IOException;

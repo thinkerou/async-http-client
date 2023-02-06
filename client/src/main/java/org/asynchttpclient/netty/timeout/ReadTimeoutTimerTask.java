@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.netty.timeout;
 
-import io.netty.util.Timeout;
+import io.netty5.util.Timeout;
 import org.asynchttpclient.netty.NettyResponseFuture;
 import org.asynchttpclient.netty.request.NettyRequestSender;
 import org.asynchttpclient.util.StringBuilderPool;

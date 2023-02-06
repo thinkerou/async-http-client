@@ -15,13 +15,13 @@
  */
 package org.asynchttpclient.netty.handler.intercept;
 
-import io.netty.channel.Channel;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.HttpMethod;
-import io.netty.handler.codec.http.HttpRequest;
-import io.netty.handler.codec.http.HttpResponse;
-import io.netty.handler.codec.http.cookie.ClientCookieDecoder;
-import io.netty.handler.codec.http.cookie.Cookie;
+import io.netty5.channel.Channel;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpMethod;
+import io.netty5.handler.codec.http.HttpRequest;
+import io.netty5.handler.codec.http.HttpResponse;
+import io.netty5.handler.codec.http.cookie.ClientCookieDecoder;
+import io.netty5.handler.codec.http.cookie.Cookie;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.AsyncHttpClientConfig;
 import org.asynchttpclient.HttpResponseStatus;
@@ -33,7 +33,7 @@ import org.asynchttpclient.netty.channel.ChannelManager;
 import org.asynchttpclient.netty.request.NettyRequestSender;
 import org.asynchttpclient.proxy.ProxyServer;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.SET_COOKIE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.SET_COOKIE;
 import static org.asynchttpclient.util.HttpConstants.ResponseStatusCodes.CONTINUE_100;
 import static org.asynchttpclient.util.HttpConstants.ResponseStatusCodes.OK_200;
 import static org.asynchttpclient.util.HttpConstants.ResponseStatusCodes.PROXY_AUTHENTICATION_REQUIRED_407;

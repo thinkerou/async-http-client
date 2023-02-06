@@ -16,7 +16,7 @@
 package org.asynchttpclient;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.HttpHeaderValues;
+import io.netty5.handler.codec.http.HttpHeaderValues;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -26,8 +26,8 @@ import org.eclipse.jetty.server.handler.gzip.GzipHandler;
 
 import java.io.IOException;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.ACCEPT_ENCODING;
-import static io.netty.handler.codec.http.HttpHeaderNames.CONNECTION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.ACCEPT_ENCODING;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONNECTION;
 import static org.asynchttpclient.Dsl.asyncHttpClient;
 import static org.asynchttpclient.Dsl.config;
 

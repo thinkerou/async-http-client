@@ -16,7 +16,7 @@
 package org.asynchttpclient;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -34,7 +34,7 @@ import java.io.IOException;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.asynchttpclient.Dsl.asyncHttpClient;
 import static org.asynchttpclient.Dsl.basicAuthRealm;

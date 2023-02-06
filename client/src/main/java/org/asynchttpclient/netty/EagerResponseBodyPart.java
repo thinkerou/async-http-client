@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.netty;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufUtil;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.ByteBufUtil;
 import org.asynchttpclient.HttpResponseBodyPart;
 
 import java.nio.ByteBuffer;

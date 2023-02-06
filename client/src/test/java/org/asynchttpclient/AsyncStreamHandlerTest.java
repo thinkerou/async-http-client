@@ -16,8 +16,8 @@
 package org.asynchttpclient;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.HttpHeaderValues;
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaderValues;
+import io.netty5.handler.codec.http.HttpHeaders;
 import org.asynchttpclient.testserver.HttpServer;
 import org.asynchttpclient.testserver.HttpTest;
 import org.junit.jupiter.api.AfterEach;
@@ -32,9 +32,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.ALLOW;
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
-import static io.netty.handler.codec.http.HttpHeaderNames.LOCATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.ALLOW;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.LOCATION;
 import static org.asynchttpclient.Dsl.config;
 import static org.asynchttpclient.test.TestUtils.AsyncHandlerAdapter;
 import static org.asynchttpclient.test.TestUtils.TEXT_HTML_CONTENT_TYPE_WITH_UTF_8_CHARSET;

@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.request.body.multipart.part;
 
-import io.netty.buffer.ByteBuf;
+import io.netty5.buffer.ByteBuf;
 
 public interface PartVisitor {
 

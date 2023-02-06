@@ -26,8 +26,8 @@ import org.junit.jupiter.api.BeforeEach;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
-import static io.netty.handler.codec.http.HttpHeaderNames.LOCATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.LOCATION;
 import static org.asynchttpclient.Dsl.asyncHttpClient;
 import static org.asynchttpclient.Dsl.config;
 import static org.junit.jupiter.api.Assertions.assertEquals;

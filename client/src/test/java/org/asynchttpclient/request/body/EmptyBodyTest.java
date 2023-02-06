@@ -16,7 +16,7 @@
 package org.asynchttpclient.request.body;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

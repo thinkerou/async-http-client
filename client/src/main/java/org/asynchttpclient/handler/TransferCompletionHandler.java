@@ -12,7 +12,7 @@
  */
 package org.asynchttpclient.handler;
 
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
 import org.asynchttpclient.AsyncCompletionHandlerBase;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.HttpResponseBodyPart;

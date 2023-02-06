@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.request.body.generator;
 
-import io.netty.buffer.ByteBuf;
+import io.netty5.buffer.ByteBuf;
 
 /**
  * {@link BodyGenerator} which may return just part of the payload at the time handler is requesting it.

@@ -15,15 +15,15 @@
  */
 package org.asynchttpclient.netty.handler;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelHandler.Sharable;
-import io.netty.handler.codec.DecoderResultProvider;
-import io.netty.handler.codec.http.HttpContent;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.HttpRequest;
-import io.netty.handler.codec.http.HttpResponse;
-import io.netty.handler.codec.http.LastHttpContent;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelHandler.Sharable;
+import io.netty5.handler.codec.DecoderResultProvider;
+import io.netty5.handler.codec.http.HttpContent;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpRequest;
+import io.netty5.handler.codec.http.HttpResponse;
+import io.netty5.handler.codec.http.LastHttpContent;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.AsyncHandler.State;
 import org.asynchttpclient.AsyncHttpClientConfig;

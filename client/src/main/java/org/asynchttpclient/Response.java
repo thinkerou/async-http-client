@@ -16,8 +16,8 @@
  */
 package org.asynchttpclient;
 
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.cookie.Cookie;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.cookie.Cookie;
 import org.asynchttpclient.netty.NettyResponse;
 import org.asynchttpclient.uri.Uri;
 

@@ -15,10 +15,10 @@
  */
 package org.asynchttpclient.netty.request.body;
 
-import io.netty.channel.Channel;
-import io.netty.channel.DefaultFileRegion;
-import io.netty.handler.codec.http.LastHttpContent;
-import io.netty.handler.stream.ChunkedNioFile;
+import io.netty5.channel.Channel;
+import io.netty5.channel.DefaultFileRegion;
+import io.netty5.handler.codec.http.LastHttpContent;
+import io.netty5.handler.stream.ChunkedNioFile;
 import org.asynchttpclient.AsyncHttpClientConfig;
 import org.asynchttpclient.netty.NettyResponseFuture;
 import org.asynchttpclient.netty.channel.ChannelManager;

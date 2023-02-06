@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.netty.request;
 
-import io.netty.channel.ChannelProgressiveFuture;
-import io.netty.channel.ChannelProgressiveFutureListener;
+import io.netty5.channel.ChannelProgressiveFuture;
+import io.netty5.channel.ChannelProgressiveFutureListener;
 import org.asynchttpclient.netty.NettyResponseFuture;
 
 public class WriteProgressListener extends WriteListener implements ChannelProgressiveFutureListener {

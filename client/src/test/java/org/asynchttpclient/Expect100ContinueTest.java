@@ -16,7 +16,7 @@
 package org.asynchttpclient;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.HttpHeaderValues;
+import io.netty5.handler.codec.http.HttpHeaderValues;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -26,7 +26,7 @@ import org.eclipse.jetty.server.handler.AbstractHandler;
 import java.io.IOException;
 import java.util.concurrent.Future;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.EXPECT;
+import static io.netty5.handler.codec.http.HttpHeaderNames.EXPECT;
 import static org.asynchttpclient.Dsl.asyncHttpClient;
 import static org.asynchttpclient.test.TestUtils.SIMPLE_TEXT_FILE;
 import static org.asynchttpclient.test.TestUtils.SIMPLE_TEXT_FILE_STRING;

@@ -16,9 +16,9 @@
 package org.asynchttpclient;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.HttpMethod;
-import io.netty.handler.codec.http.cookie.Cookie;
-import io.netty.handler.codec.http.cookie.DefaultCookie;
+import io.netty5.handler.codec.http.HttpMethod;
+import io.netty5.handler.codec.http.cookie.Cookie;
+import io.netty5.handler.codec.http.cookie.DefaultCookie;
 
 import java.util.Collection;
 import java.util.Collections;

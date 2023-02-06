@@ -16,7 +16,7 @@
 package org.asynchttpclient;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.util.internal.SocketUtils;
+import io.netty5.util.internal.SocketUtils;
 import org.asynchttpclient.test.TestUtils.AsyncCompletionHandlerAdapter;
 import org.asynchttpclient.testserver.HttpServer;
 import org.asynchttpclient.testserver.HttpTest;

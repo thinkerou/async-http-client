@@ -15,10 +15,10 @@
  */
 package org.asynchttpclient.netty.request.body;
 
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelProgressiveFuture;
-import io.netty.handler.codec.http.LastHttpContent;
-import io.netty.handler.stream.ChunkedStream;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelProgressiveFuture;
+import io.netty5.handler.codec.http.LastHttpContent;
+import io.netty5.handler.stream.ChunkedStream;
 import org.asynchttpclient.netty.NettyResponseFuture;
 import org.asynchttpclient.netty.request.WriteProgressListener;
 import org.slf4j.Logger;

@@ -15,19 +15,19 @@
  */
 package org.asynchttpclient.netty.ws;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufUtil;
-import io.netty.channel.Channel;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.CloseWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.ContinuationWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.PingWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.PongWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.WebSocketFrame;
-import io.netty.util.concurrent.Future;
-import io.netty.util.concurrent.ImmediateEventExecutor;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.ByteBufUtil;
+import io.netty5.channel.Channel;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.websocketx.BinaryWebSocketFrame;
+import io.netty5.handler.codec.http.websocketx.CloseWebSocketFrame;
+import io.netty5.handler.codec.http.websocketx.ContinuationWebSocketFrame;
+import io.netty5.handler.codec.http.websocketx.PingWebSocketFrame;
+import io.netty5.handler.codec.http.websocketx.PongWebSocketFrame;
+import io.netty5.handler.codec.http.websocketx.TextWebSocketFrame;
+import io.netty5.handler.codec.http.websocketx.WebSocketFrame;
+import io.netty5.util.concurrent.Future;
+import io.netty5.util.concurrent.ImmediateEventExecutor;
 import org.asynchttpclient.netty.channel.Channels;
 import org.asynchttpclient.ws.WebSocket;
 import org.asynchttpclient.ws.WebSocketListener;
@@ -41,7 +41,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import static io.netty.buffer.Unpooled.wrappedBuffer;
+import static io.netty5.buffer.Unpooled.wrappedBuffer;
 
 public final class NettyWebSocket implements WebSocket {
 

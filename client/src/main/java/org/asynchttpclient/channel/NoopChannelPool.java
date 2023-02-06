@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.channel;
 
-import io.netty.channel.Channel;
+import io.netty5.channel.Channel;
 
 import java.util.Collections;
 import java.util.Map;

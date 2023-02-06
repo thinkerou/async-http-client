@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.request.body.generator;
 
-import io.netty.buffer.ByteBuf;
+import io.netty5.buffer.ByteBuf;
 import org.asynchttpclient.request.body.Body;
 
 import java.util.Queue;

@@ -15,9 +15,9 @@
  */
 package org.asynchttpclient.netty.channel;
 
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelFactory;
-import io.netty.channel.EventLoopGroup;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelFactory;
+import io.netty5.channel.EventLoopGroup;
 
 import java.util.concurrent.ThreadFactory;
 

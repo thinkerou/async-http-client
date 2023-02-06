@@ -15,12 +15,12 @@
  */
 package org.asynchttpclient.netty.handler.intercept;
 
-import io.netty.channel.Channel;
-import io.netty.handler.codec.http.DefaultHttpHeaders;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.HttpRequest;
-import io.netty.handler.codec.http.HttpResponse;
-import io.netty.handler.codec.http.HttpUtil;
+import io.netty5.channel.Channel;
+import io.netty5.handler.codec.http.DefaultHttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpRequest;
+import io.netty5.handler.codec.http.HttpResponse;
+import io.netty5.handler.codec.http.HttpUtil;
 import org.asynchttpclient.Realm;
 import org.asynchttpclient.Realm.AuthScheme;
 import org.asynchttpclient.Request;
@@ -38,8 +38,8 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.PROXY_AUTHENTICATE;
-import static io.netty.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.PROXY_AUTHENTICATE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
 import static org.asynchttpclient.Dsl.realm;
 import static org.asynchttpclient.util.AuthenticatorUtils.NEGOTIATE;
 import static org.asynchttpclient.util.AuthenticatorUtils.getHeaderWithPrefix;

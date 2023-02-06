@@ -15,9 +15,9 @@
  */
 package org.asynchttpclient.request.body.multipart.part;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufAllocator;
-import io.netty.buffer.Unpooled;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.ByteBufAllocator;
+import io.netty5.buffer.Unpooled;
 import org.asynchttpclient.request.body.multipart.FileLikePart;
 
 import java.io.IOException;

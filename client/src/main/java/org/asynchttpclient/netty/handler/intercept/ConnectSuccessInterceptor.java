@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.netty.handler.intercept;
 
-import io.netty.channel.Channel;
-import io.netty.util.concurrent.Future;
+import io.netty5.channel.Channel;
+import io.netty5.util.concurrent.Future;
 import org.asynchttpclient.Request;
 import org.asynchttpclient.netty.NettyResponseFuture;
 import org.asynchttpclient.netty.channel.ChannelManager;

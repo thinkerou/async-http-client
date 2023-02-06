@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient;
 
-import io.netty.channel.Channel;
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.channel.Channel;
+import io.netty5.handler.codec.http.HttpHeaders;
 import org.asynchttpclient.netty.request.NettyRequest;
 
 import javax.net.ssl.SSLSession;

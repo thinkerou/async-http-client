@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.netty;
 
-import io.netty.util.concurrent.Future;
-import io.netty.util.concurrent.FutureListener;
+import io.netty5.util.concurrent.Future;
+import io.netty5.util.concurrent.FutureListener;
 
 public abstract class SimpleFutureListener<V> implements FutureListener<V> {
 

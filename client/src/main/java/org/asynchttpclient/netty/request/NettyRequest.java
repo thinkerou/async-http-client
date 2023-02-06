@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.netty.request;
 
-import io.netty.handler.codec.http.HttpRequest;
+import io.netty5.handler.codec.http.HttpRequest;
 import org.asynchttpclient.netty.request.body.NettyBody;
 
 public final class NettyRequest {

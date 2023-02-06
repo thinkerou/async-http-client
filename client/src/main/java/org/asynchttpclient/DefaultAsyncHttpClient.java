@@ -16,11 +16,11 @@
  */
 package org.asynchttpclient;
 
-import io.netty.channel.EventLoopGroup;
-import io.netty.handler.codec.http.cookie.Cookie;
-import io.netty.util.HashedWheelTimer;
-import io.netty.util.Timer;
-import io.netty.util.concurrent.DefaultThreadFactory;
+import io.netty5.channel.EventLoopGroup;
+import io.netty5.handler.codec.http.cookie.Cookie;
+import io.netty5.util.HashedWheelTimer;
+import io.netty5.util.Timer;
+import io.netty5.util.concurrent.DefaultThreadFactory;
 import org.asynchttpclient.channel.ChannelPool;
 import org.asynchttpclient.cookie.CookieEvictionTask;
 import org.asynchttpclient.cookie.CookieStore;

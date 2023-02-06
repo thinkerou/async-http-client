@@ -15,9 +15,9 @@
  */
 package org.asynchttpclient.netty.channel;
 
-import io.netty.channel.epoll.Epoll;
-import io.netty.channel.epoll.EpollEventLoopGroup;
-import io.netty.channel.epoll.EpollSocketChannel;
+import io.netty5.channel.epoll.Epoll;
+import io.netty5.channel.epoll.EpollEventLoopGroup;
+import io.netty5.channel.epoll.EpollSocketChannel;
 
 import java.util.concurrent.ThreadFactory;
 
@@ -25,7 +25,7 @@ class EpollTransportFactory implements TransportFactory<EpollSocketChannel, Epol
 
     static boolean isAvailable() {
         try {
-            Class.forName("io.netty.channel.epoll.Epoll");
+            Class.forName("io.netty5.channel.epoll.Epoll");
         } catch (ClassNotFoundException e) {
             return false;
         }

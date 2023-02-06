@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.netty.request;
 
-import io.netty.channel.Channel;
+import io.netty5.channel.Channel;
 import org.asynchttpclient.handler.ProgressAsyncHandler;
 import org.asynchttpclient.netty.NettyResponseFuture;
 import org.asynchttpclient.netty.channel.ChannelState;

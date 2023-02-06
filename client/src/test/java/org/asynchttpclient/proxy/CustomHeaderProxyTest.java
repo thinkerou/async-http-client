@@ -13,7 +13,7 @@
 package org.asynchttpclient.proxy;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.DefaultHttpHeaders;
+import io.netty5.handler.codec.http.DefaultHttpHeaders;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

@@ -12,7 +12,7 @@
  */
 package org.asynchttpclient.handler.resumable;
 
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaders;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.HttpResponseBodyPart;
 import org.asynchttpclient.HttpResponseStatus;
@@ -31,8 +31,8 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicLong;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
-import static io.netty.handler.codec.http.HttpHeaderNames.RANGE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
+import static io.netty5.handler.codec.http.HttpHeaderNames.RANGE;
 
 /**
  * An {@link AsyncHandler} which support resumable download, e.g when used with an {@link ResumableIOExceptionFilter},

@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.netty.request;
 
-import io.netty.channel.ChannelFuture;
-import io.netty.util.concurrent.GenericFutureListener;
+import io.netty5.channel.ChannelFuture;
+import io.netty5.util.concurrent.GenericFutureListener;
 import org.asynchttpclient.netty.NettyResponseFuture;
 
 public class WriteCompleteListener extends WriteListener implements GenericFutureListener<ChannelFuture> {

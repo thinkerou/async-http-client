@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.channel;
 
-import io.netty.handler.codec.http.HttpRequest;
-import io.netty.handler.codec.http.HttpResponse;
+import io.netty5.handler.codec.http.HttpRequest;
+import io.netty5.handler.codec.http.HttpResponse;
 import org.asynchttpclient.Request;
 
 import java.net.InetSocketAddress;

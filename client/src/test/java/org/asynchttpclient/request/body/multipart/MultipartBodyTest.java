@@ -16,9 +16,9 @@
 package org.asynchttpclient.request.body.multipart;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
-import io.netty.handler.codec.http.EmptyHttpHeaders;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.Unpooled;
+import io.netty5.handler.codec.http.EmptyHttpHeaders;
 import org.asynchttpclient.request.body.Body.BodyState;
 
 import java.io.BufferedInputStream;

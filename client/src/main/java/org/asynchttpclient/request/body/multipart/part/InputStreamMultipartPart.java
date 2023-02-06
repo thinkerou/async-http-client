@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.request.body.multipart.part;
 
-import io.netty.buffer.ByteBuf;
+import io.netty5.buffer.ByteBuf;
 import org.asynchttpclient.netty.request.body.BodyChunkedInput;
 import org.asynchttpclient.request.body.multipart.InputStreamPart;
 

@@ -15,10 +15,10 @@
  */
 package org.asynchttpclient.netty.request.body;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufAllocator;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.handler.stream.ChunkedInput;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.ByteBufAllocator;
+import io.netty5.channel.ChannelHandlerContext;
+import io.netty5.handler.stream.ChunkedInput;
 import org.asynchttpclient.request.body.Body;
 
 import static org.asynchttpclient.util.Assertions.assertNotNull;

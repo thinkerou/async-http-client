@@ -15,9 +15,9 @@
  */
 package org.asynchttpclient.netty.channel;
 
-import io.netty.channel.Channel;
-import io.netty.handler.codec.http.HttpRequest;
-import io.netty.handler.ssl.SslHandler;
+import io.netty5.channel.Channel;
+import io.netty5.handler.codec.http.HttpRequest;
+import io.netty5.handler.ssl.SslHandler;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.Request;
 import org.asynchttpclient.netty.NettyResponseFuture;

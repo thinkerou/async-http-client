@@ -12,7 +12,7 @@
  */
 package org.asynchttpclient.request.body;
 
-import io.netty.buffer.ByteBuf;
+import io.netty5.buffer.ByteBuf;
 
 import java.io.Closeable;
 import java.io.IOException;

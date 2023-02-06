@@ -16,8 +16,8 @@
 package org.asynchttpclient.request.body.generator;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.Unpooled;
 import org.asynchttpclient.request.body.Body;
 import org.asynchttpclient.request.body.Body.BodyState;
 import org.junit.jupiter.api.BeforeEach;

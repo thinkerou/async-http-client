@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.netty;
 
-import io.netty.channel.Channel;
-import io.netty.handler.codec.http.HttpResponse;
+import io.netty5.channel.Channel;
+import io.netty5.handler.codec.http.HttpResponse;
 import org.asynchttpclient.HttpResponseStatus;
 import org.asynchttpclient.uri.Uri;
 

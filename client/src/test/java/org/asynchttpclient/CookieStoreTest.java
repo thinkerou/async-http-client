@@ -16,10 +16,10 @@
 package org.asynchttpclient;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.handler.codec.http.cookie.ClientCookieDecoder;
-import io.netty.handler.codec.http.cookie.ClientCookieEncoder;
-import io.netty.handler.codec.http.cookie.Cookie;
-import io.netty.handler.codec.http.cookie.DefaultCookie;
+import io.netty5.handler.codec.http.cookie.ClientCookieDecoder;
+import io.netty5.handler.codec.http.cookie.ClientCookieEncoder;
+import io.netty5.handler.codec.http.cookie.Cookie;
+import io.netty5.handler.codec.http.cookie.DefaultCookie;
 import org.asynchttpclient.cookie.CookieStore;
 import org.asynchttpclient.cookie.ThreadSafeCookieStore;
 import org.asynchttpclient.uri.Uri;

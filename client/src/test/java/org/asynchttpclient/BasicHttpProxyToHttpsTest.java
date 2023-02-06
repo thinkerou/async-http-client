@@ -30,9 +30,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.Future;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.PROXY_AUTHENTICATE;
-import static io.netty.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
-import static io.netty.handler.codec.http.HttpHeaderNames.USER_AGENT;
+import static io.netty5.handler.codec.http.HttpHeaderNames.PROXY_AUTHENTICATE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.USER_AGENT;
 import static org.asynchttpclient.Dsl.asyncHttpClient;
 import static org.asynchttpclient.Dsl.config;
 import static org.asynchttpclient.Dsl.get;

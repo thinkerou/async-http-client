@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.netty.timeout;
 
-import io.netty.util.TimerTask;
+import io.netty5.util.TimerTask;
 import org.asynchttpclient.netty.NettyResponseFuture;
 import org.asynchttpclient.netty.request.NettyRequestSender;
 import org.slf4j.Logger;

@@ -31,11 +31,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
 import java.util.zip.Deflater;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_ENCODING;
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
-import static io.netty.handler.codec.http.HttpHeaderNames.TRANSFER_ENCODING;
-import static io.netty.handler.codec.http.HttpHeaderValues.CHUNKED;
-import static io.netty.handler.codec.http.HttpHeaderValues.DEFLATE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_ENCODING;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
+import static io.netty5.handler.codec.http.HttpHeaderNames.TRANSFER_ENCODING;
+import static io.netty5.handler.codec.http.HttpHeaderValues.CHUNKED;
+import static io.netty5.handler.codec.http.HttpHeaderValues.DEFLATE;
 
 public class EchoHandler extends AbstractHandler {
 

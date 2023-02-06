@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.request.body.multipart;
 
-import io.netty.handler.codec.http.HttpHeaderValues;
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpHeaderValues;
+import io.netty5.handler.codec.http.HttpHeaders;
 import org.asynchttpclient.request.body.multipart.part.ByteArrayMultipartPart;
 import org.asynchttpclient.request.body.multipart.part.FileMultipartPart;
 import org.asynchttpclient.request.body.multipart.part.InputStreamMultipartPart;
@@ -27,7 +27,7 @@ import org.asynchttpclient.request.body.multipart.part.StringMultipartPart;
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
 import static java.nio.charset.StandardCharsets.US_ASCII;
 import static org.asynchttpclient.util.Assertions.assertNotNull;
 import static org.asynchttpclient.util.HttpUtils.computeMultipartBoundary;

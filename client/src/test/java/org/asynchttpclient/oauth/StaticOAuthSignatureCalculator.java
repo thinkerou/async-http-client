@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.oauth;
 
-import io.netty.handler.codec.http.HttpHeaderNames;
+import io.netty5.handler.codec.http.HttpHeaderNames;
 import org.asynchttpclient.Request;
 import org.asynchttpclient.RequestBuilderBase;
 import org.asynchttpclient.SignatureCalculator;

@@ -15,14 +15,14 @@
  */
 package org.asynchttpclient;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufAllocator;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelOption;
-import io.netty.channel.EventLoopGroup;
-import io.netty.handler.ssl.SslContext;
-import io.netty.util.HashedWheelTimer;
-import io.netty.util.Timer;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.ByteBufAllocator;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelOption;
+import io.netty5.channel.EventLoopGroup;
+import io.netty5.handler.ssl.SslContext;
+import io.netty5.util.HashedWheelTimer;
+import io.netty5.util.Timer;
 import org.asynchttpclient.channel.ChannelPool;
 import org.asynchttpclient.channel.KeepAliveStrategy;
 import org.asynchttpclient.cookie.CookieStore;

@@ -12,8 +12,8 @@
  */
 package org.asynchttpclient.webdav;
 
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.cookie.Cookie;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.cookie.Cookie;
 import org.asynchttpclient.Response;
 import org.asynchttpclient.uri.Uri;
 import org.w3c.dom.Document;

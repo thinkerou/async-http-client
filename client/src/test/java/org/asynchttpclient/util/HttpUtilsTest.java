@@ -16,8 +16,8 @@
 package org.asynchttpclient.util;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.Unpooled;
 import org.asynchttpclient.DefaultAsyncHttpClientConfig;
 import org.asynchttpclient.Dsl;
 import org.asynchttpclient.Param;
@@ -30,7 +30,7 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.netty.handler.codec.http.HttpHeaderValues.APPLICATION_JSON;
+import static io.netty5.handler.codec.http.HttpHeaderValues.APPLICATION_JSON;
 import static java.nio.charset.StandardCharsets.ISO_8859_1;
 import static java.nio.charset.StandardCharsets.US_ASCII;
 import static java.nio.charset.StandardCharsets.UTF_8;

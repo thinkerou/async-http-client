@@ -15,11 +15,11 @@
  */
 package org.asynchttpclient.netty.handler.intercept;
 
-import io.netty.channel.Channel;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.handler.codec.http.HttpResponse;
-import io.netty.handler.codec.http.HttpUtil;
-import io.netty.handler.codec.http.cookie.Cookie;
+import io.netty5.channel.Channel;
+import io.netty5.handler.codec.http.HttpHeaders;
+import io.netty5.handler.codec.http.HttpResponse;
+import io.netty5.handler.codec.http.HttpUtil;
+import io.netty5.handler.codec.http.cookie.Cookie;
 import org.asynchttpclient.AsyncHttpClientConfig;
 import org.asynchttpclient.Realm;
 import org.asynchttpclient.Realm.AuthScheme;
@@ -38,12 +38,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.AUTHORIZATION;
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
-import static io.netty.handler.codec.http.HttpHeaderNames.HOST;
-import static io.netty.handler.codec.http.HttpHeaderNames.LOCATION;
-import static io.netty.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.AUTHORIZATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.HOST;
+import static io.netty5.handler.codec.http.HttpHeaderNames.LOCATION;
+import static io.netty5.handler.codec.http.HttpHeaderNames.PROXY_AUTHORIZATION;
 import static org.asynchttpclient.util.HttpConstants.Methods.GET;
 import static org.asynchttpclient.util.HttpConstants.Methods.HEAD;
 import static org.asynchttpclient.util.HttpConstants.Methods.OPTIONS;

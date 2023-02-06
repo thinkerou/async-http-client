@@ -15,7 +15,7 @@
  */
 package org.asynchttpclient.netty;
 
-import io.netty.channel.Channel;
+import io.netty5.channel.Channel;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.ListenableFuture;
 import org.asynchttpclient.Realm;

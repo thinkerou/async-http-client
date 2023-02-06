@@ -13,7 +13,7 @@
 package org.asynchttpclient.request.body;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.buffer.Unpooled;
+import io.netty5.buffer.Unpooled;
 import org.asynchttpclient.AbstractBasicTest;
 import org.asynchttpclient.AsyncHttpClient;
 import org.asynchttpclient.DefaultAsyncHttpClientConfig;

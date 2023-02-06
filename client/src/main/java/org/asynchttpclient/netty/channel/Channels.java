@@ -15,9 +15,9 @@
  */
 package org.asynchttpclient.netty.channel;
 
-import io.netty.channel.Channel;
-import io.netty.util.Attribute;
-import io.netty.util.AttributeKey;
+import io.netty5.channel.Channel;
+import io.netty5.util.Attribute;
+import io.netty5.util.AttributeKey;
 import org.asynchttpclient.netty.DiscardEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

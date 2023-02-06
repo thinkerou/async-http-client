@@ -29,10 +29,10 @@ import org.junit.jupiter.api.BeforeEach;
 import java.io.File;
 import java.util.function.Function;
 
-import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
-import static io.netty.handler.codec.http.HttpHeaderNames.EXPECT;
-import static io.netty.handler.codec.http.HttpHeaderValues.APPLICATION_OCTET_STREAM;
-import static io.netty.handler.codec.http.HttpHeaderValues.CONTINUE;
+import static io.netty5.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
+import static io.netty5.handler.codec.http.HttpHeaderNames.EXPECT;
+import static io.netty5.handler.codec.http.HttpHeaderValues.APPLICATION_OCTET_STREAM;
+import static io.netty5.handler.codec.http.HttpHeaderValues.CONTINUE;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.asynchttpclient.Dsl.asyncHttpClient;
 import static org.asynchttpclient.Dsl.basicAuthRealm;

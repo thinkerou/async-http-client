@@ -15,9 +15,9 @@
  */
 package org.asynchttpclient.netty.channel;
 
-import io.netty.channel.kqueue.KQueue;
-import io.netty.channel.kqueue.KQueueEventLoopGroup;
-import io.netty.channel.kqueue.KQueueSocketChannel;
+import io.netty5.channel.kqueue.KQueue;
+import io.netty5.channel.kqueue.KQueueEventLoopGroup;
+import io.netty5.channel.kqueue.KQueueSocketChannel;
 
 import java.util.concurrent.ThreadFactory;
 
@@ -25,7 +25,7 @@ class KQueueTransportFactory implements TransportFactory<KQueueSocketChannel, KQ
 
     static boolean isAvailable() {
         try {
-            Class.forName("io.netty.channel.kqueue.KQueue");
+            Class.forName("io.netty5.channel.kqueue.KQueue");
         } catch (ClassNotFoundException e) {
             return false;
         }

@@ -15,8 +15,8 @@
  */
 package org.asynchttpclient.netty.request.body;
 
-import io.netty.channel.FileRegion;
-import io.netty.util.AbstractReferenceCounted;
+import io.netty5.channel.FileRegion;
+import io.netty5.util.AbstractReferenceCounted;
 import org.asynchttpclient.request.body.RandomAccessBody;
 
 import java.io.IOException;

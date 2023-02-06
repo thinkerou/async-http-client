@@ -16,10 +16,10 @@
 package org.asynchttpclient;
 
 import io.github.artsok.RepeatedIfExceptionsTest;
-import io.netty.channel.epoll.EpollEventLoopGroup;
-import io.netty.channel.kqueue.KQueueEventLoopGroup;
+import io.netty5.channel.epoll.EpollEventLoopGroup;
+import io.netty5.channel.kqueue.KQueueEventLoopGroup;
 import io.netty.incubator.channel.uring.IOUringEventLoopGroup;
-import io.netty.util.Timer;
+import io.netty5.util.Timer;
 import org.asynchttpclient.cookie.CookieEvictionTask;
 import org.asynchttpclient.cookie.CookieStore;
 import org.asynchttpclient.cookie.ThreadSafeCookieStore;

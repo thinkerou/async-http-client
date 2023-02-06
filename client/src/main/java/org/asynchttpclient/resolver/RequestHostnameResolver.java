@@ -15,10 +15,10 @@
  */
 package org.asynchttpclient.resolver;
 
-import io.netty.resolver.NameResolver;
-import io.netty.util.concurrent.Future;
-import io.netty.util.concurrent.ImmediateEventExecutor;
-import io.netty.util.concurrent.Promise;
+import io.netty5.resolver.NameResolver;
+import io.netty5.util.concurrent.Future;
+import io.netty5.util.concurrent.ImmediateEventExecutor;
+import io.netty5.util.concurrent.Promise;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.netty.SimpleFutureListener;
 import org.slf4j.Logger;

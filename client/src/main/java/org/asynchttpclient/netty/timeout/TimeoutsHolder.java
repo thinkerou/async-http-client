@@ -15,9 +15,9 @@
  */
 package org.asynchttpclient.netty.timeout;
 
-import io.netty.util.Timeout;
-import io.netty.util.Timer;
-import io.netty.util.TimerTask;
+import io.netty5.util.Timeout;
+import io.netty5.util.Timer;
+import io.netty5.util.TimerTask;
 import org.asynchttpclient.AsyncHttpClientConfig;
 import org.asynchttpclient.Request;
 import org.asynchttpclient.netty.NettyResponseFuture;
