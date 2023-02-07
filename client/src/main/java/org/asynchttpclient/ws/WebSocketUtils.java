@@ -15,12 +15,11 @@
  */
 package org.asynchttpclient.ws;
 
-import io.netty5.util.internal.ThreadLocalRandom;
-
-import java.util.Base64;
-
 import static java.nio.charset.StandardCharsets.US_ASCII;
 import static org.asynchttpclient.util.MessageDigestUtils.pooledSha1MessageDigest;
+
+import java.util.Base64;
+import java.util.concurrent.ThreadLocalRandom;
 
 public final class WebSocketUtils {
     private static final String MAGIC_GUID = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11";
